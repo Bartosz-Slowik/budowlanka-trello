@@ -31,7 +31,7 @@ while (!Recordset.EOF) \{
         records[trnId].D3_WYW = data;
     \} else if (kod === "D2_DOSTAWA") \{
         records[trnId].D2_DOSTAWA = data;
-    \} else if (kod === "PLAN_GODZ") \{ // Check for PLAN_GODZ
+    \} else if (kod === "DNI") \{ // Check for PLAN_GODZ
         records[trnId].PLAN_GODZ = data;
     \}
 
