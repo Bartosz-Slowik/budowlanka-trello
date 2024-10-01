@@ -104,4 +104,4 @@ getAllCardsFromBoard(config.boardId, (err, cards) => {
 
 setTimeout(() => {
     console.log("Exiting...");
-}, 10000);
+}, 1000);
