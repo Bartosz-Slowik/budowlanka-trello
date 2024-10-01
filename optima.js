@@ -43,5 +43,9 @@ var shell = new ActiveXObject("WScript.Shell");
 for (var TrnID in records) \{
     var record = records[TrnID];
     var command = "node F:\\TRELLO\\main.js " + record.NR + " " + record.D2_DOSTAWA + " " + record.D3_WYW + " " + record.PLAN_GODZ;
+    
+    // Display the popup message
+    shell.Popup('Command: ' + command, 0, 'TEST', 64);
+    
     var exitCode = shell.Run(command, 1, true);
 \}
